@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!-- Definición del servlet -->
+    <servlet>
+        <servlet-name>EstudiantesServlet</servlet-name>
+        <servlet-class>com.miempresa.controladores.EstudiantesServlet</servlet-class>
+    </servlet>
+    
+    <!-- Mapeo de la URL para el servlet -->
+    <servlet-mapping>
+        <servlet-name>EstudiantesServlet</servlet-name>
+        <url-pattern>/estudiantes</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Otros mapeos de servlets y configuraciones pueden ir aquí -->
+    
+</web-app>
